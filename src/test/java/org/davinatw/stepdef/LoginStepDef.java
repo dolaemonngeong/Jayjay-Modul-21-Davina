@@ -23,11 +23,13 @@ public class LoginStepDef extends BaseTest {
 
     @And("user input password with {string}")
     public void userInputPasswordWith(String password) {
+
         loginPage.inputPassword(password);
     }
 
     @When("user click login button")
     public void userClickLoginButton() {
+
         loginPage.clickLoginButton();
     }
 

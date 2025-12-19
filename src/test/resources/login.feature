@@ -7,7 +7,7 @@ Feature: Login
     And user input username with "standard_user"
     And user input password with "secret_sauce"
     When user click login button
-    Then user is on homepage
+    Then user should be redirected to homepage
 
   @tes-negatif
   Scenario: Login using invalid username and password
