@@ -8,7 +8,7 @@ Repositori ini berisi implementasi kerangka uji Web UI Automation menggunakan:
 - Gradle
 - Page Object Model (POM)
 
-Framework ini digunakan untuk melakukan pengujian fitur login pada aplikasi web menggunakan pendekatan Behavior Driven Development (BDD).
+Framework ini digunakan untuk melakukan pengujian fitur login dan cart pada website https://www.saucedemo.com/
 
 ---
 
@@ -23,6 +23,7 @@ Framework ini digunakan untuk melakukan pengujian fitur login pada aplikasi web 
 ---
 
 ## Struktur Proyek
+```text
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -58,7 +59,7 @@ Framework ini digunakan untuk melakukan pengujian fitur login pada aplikasi web 
 ├── gradlew.bat
 ├── README.md
 └── .gitignore
-
+```
 
 ## Cara Menjalankan Test
 - Menggunakan terminal
