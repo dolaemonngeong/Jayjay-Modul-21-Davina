@@ -5,7 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.davinatw.BaseTest;
-import org.davinatw.Page.LoginPage;
+import org.davinatw.page.LoginPage;
 
 public class LoginStepDef extends BaseTest {
     LoginPage loginPage;

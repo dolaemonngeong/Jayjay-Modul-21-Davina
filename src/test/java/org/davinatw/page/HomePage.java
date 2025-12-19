@@ -1,4 +1,4 @@
-package org.davinatw.Page;
+package org.davinatw.page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
