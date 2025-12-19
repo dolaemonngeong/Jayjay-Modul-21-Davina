@@ -34,7 +34,7 @@ Framework ini digunakan untuk melakukan pengujian fitur login dan cart pada webs
 │   └── test/
 │       ├── java/
 │       │   └── org/davinatw/
-│       │       ├── Page/
+│       │       ├── page/
 │       │       │   ├── HomePage.java
 │       │       │   └── LoginPage.java
 │       │       │
