@@ -58,6 +58,6 @@ tasks.register('cucumber', JavaExec) {
             '--plugin', 'json:reports/cucumber.json',
             '--glue', 'org.davinatw',
             '--tags', tags,
-            'src/test/resources/login.feature'
+            'src/test/resources/'
     ]
 }
