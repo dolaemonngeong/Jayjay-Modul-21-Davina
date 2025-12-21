@@ -76,5 +76,5 @@ Project automation test website untuk melakukan pengujian fitur login dan cart p
 - Framework ini menggunakan pendekatan BDD dengan Cucumber
 
 ## Author
-Nama: Davina Teresa  Wijaya
+Nama: Davina Teresa Wijaya
 
