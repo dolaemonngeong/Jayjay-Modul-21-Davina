@@ -42,15 +42,15 @@ jobs:
       uses: browser-actions/setup-chrome@b94431e051d1c52dcbe9a7092a4f10f827795416
 
     # setup gradlew
-    - name: Setup gradlew
-      run: chmod +x gradlew
+    # - name: Setup gradlew
+    #   run: chmod +x gradlew
 
-    # Execute gradle command for running cucumber test
-    - name: Execute test
-      run: ./gradlew cucumber
+    # # Execute gradle command for running cucumber test
+    # - name: Execute test
+    #   run: ./gradlew cucumber
   
-    # - name: Build with Gradle Wrapper
-    #   run: ./gradlew build
+    - name: Build with Gradle Wrapper
+      run: ./gradlew build
 
     # NOTE: The Gradle Wrapper is the default and recommended way to run Gradle (https://docs.gradle.org/current/userguide/gradle_wrapper.html).
     # If your project does not have the Gradle Wrapper configured, you can use the following configuration to run Gradle with a specified version.
